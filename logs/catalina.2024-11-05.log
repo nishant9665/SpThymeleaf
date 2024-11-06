@@ -1,0 +1,550 @@
+05-Nov-2024 17:17:59.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 17:17:59.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 17:17:59.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 17:17:59.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 17:17:59.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 17:17:59.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 17:17:59.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 17:17:59.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 17:17:59.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 17:17:59.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:17:59.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:17:59.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 17:17:59.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 17:17:59.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 17:17:59.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 17:17:59.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 17:17:59.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 17:17:59.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 17:17:59.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 17:17:59.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 17:17:59.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:17:59.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:17:59.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 17:17:59.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 17:17:59.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 17:17:59.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=59550:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 17:17:59.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 17:17:59.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 17:17:59.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 17:17:59.421 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 17:18:00.092 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:18:00.124 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1313] milliseconds
+05-Nov-2024 17:18:00.234 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 17:18:00.234 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 17:18:00.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 17:18:01.443 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:18:01.486 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 17:18:01.529 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:18:05.245 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 17:18:05.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [5,058] ms
+05-Nov-2024 17:18:05.317 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:18:05.348 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5221] milliseconds
+05-Nov-2024 17:19:57.502 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:19:57.507 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 17:19:57.522 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:19:57.533 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:21:25.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 17:21:25.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 17:21:25.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 17:21:25.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 17:21:25.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 17:21:25.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 17:21:25.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 17:21:25.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 17:21:25.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 17:21:25.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:21:25.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:21:25.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 17:21:25.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 17:21:25.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 17:21:25.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 17:21:25.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 17:21:25.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 17:21:25.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 17:21:25.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 17:21:25.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 17:21:25.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:21:25.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:21:25.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 17:21:25.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 17:21:25.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 17:21:25.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=59564:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 17:21:25.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 17:21:25.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 17:21:25.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 17:21:25.601 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 17:21:26.175 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:21:26.211 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1062] milliseconds
+05-Nov-2024 17:21:26.284 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 17:21:26.285 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 17:21:26.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 17:21:26.782 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:21:26.805 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 17:21:26.825 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:21:29.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 17:21:30.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [3,746] ms
+05-Nov-2024 17:21:30.053 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:21:30.086 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3872] milliseconds
+05-Nov-2024 17:22:04.455 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:22:04.460 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 17:22:04.475 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:22:04.497 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:24:05.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 17:24:05.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 17:24:05.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 17:24:05.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 17:24:05.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 17:24:05.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 17:24:05.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 17:24:05.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 17:24:05.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 17:24:05.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:24:05.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:24:05.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 17:24:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 17:24:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 17:24:05.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 17:24:05.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 17:24:05.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 17:24:05.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 17:24:05.754 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 17:24:05.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 17:24:05.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:24:05.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:24:05.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 17:24:05.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 17:24:05.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 17:24:05.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=59572:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 17:24:05.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 17:24:05.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 17:24:05.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 17:24:05.775 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 17:24:06.376 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:24:06.409 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1130] milliseconds
+05-Nov-2024 17:24:06.471 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 17:24:06.471 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 17:24:06.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 17:24:07.131 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:24:07.209 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 17:24:07.230 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:24:10.685 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 17:24:10.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [4,280] ms
+05-Nov-2024 17:24:10.776 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:24:10.810 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4399] milliseconds
+05-Nov-2024 17:27:28.351 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:27:28.359 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 17:27:28.376 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:27:28.391 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:56:25.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 17:56:25.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 17:56:25.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 17:56:25.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 17:56:25.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 17:56:25.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 17:56:25.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 17:56:25.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 17:56:25.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 17:56:25.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:56:25.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:56:25.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 17:56:25.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 17:56:25.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 17:56:25.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 17:56:25.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 17:56:25.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 17:56:25.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 17:56:25.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 17:56:25.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 17:56:25.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:56:25.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:56:25.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 17:56:25.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 17:56:25.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 17:56:25.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=52737:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 17:56:25.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 17:56:25.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 17:56:25.278 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 17:56:25.292 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 17:56:25.844 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:56:25.874 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [996] milliseconds
+05-Nov-2024 17:56:25.944 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 17:56:25.944 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 17:56:25.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 17:56:26.334 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:56:26.353 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 17:56:26.369 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:56:29.291 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 17:56:29.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [3,410] ms
+05-Nov-2024 17:56:29.370 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:56:29.401 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3524] milliseconds
+05-Nov-2024 17:58:33.687 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:58:33.693 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 17:58:33.707 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:58:33.733 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:58:55.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 17:58:55.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 17:58:55.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 17:58:55.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 17:58:55.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 17:58:55.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 17:58:55.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 17:58:55.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 17:58:55.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 17:58:55.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:58:55.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:58:55.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 17:58:55.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 17:58:55.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 17:58:55.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 17:58:55.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 17:58:55.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 17:58:55.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 17:58:55.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 17:58:55.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 17:58:55.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 17:58:55.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 17:58:55.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 17:58:55.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 17:58:55.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 17:58:55.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=52750:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 17:58:55.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 17:58:55.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 17:58:55.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 17:58:56.009 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 17:58:56.861 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:58:56.914 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1410] milliseconds
+05-Nov-2024 17:58:57.005 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 17:58:57.006 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 17:58:57.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 17:58:57.568 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:58:57.592 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 17:58:57.611 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 17:59:00.883 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 17:59:00.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [3,938] ms
+05-Nov-2024 17:59:00.968 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 17:59:00.998 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4079] milliseconds
+05-Nov-2024 18:00:13.246 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:00:13.252 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 18:00:13.268 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:00:13.285 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:27:28.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 18:27:28.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 18:27:28.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 18:27:28.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 18:27:28.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 18:27:28.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 18:27:28.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 18:27:28.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 18:27:28.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 18:27:28.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:27:28.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:27:28.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 18:27:28.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 18:27:28.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 18:27:28.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 18:27:28.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 18:27:28.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 18:27:28.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 18:27:28.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 18:27:28.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 18:27:28.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:27:28.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:27:28.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 18:27:28.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 18:27:28.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 18:27:28.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=52908:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 18:27:28.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 18:27:28.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 18:27:28.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 18:27:28.348 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 18:27:28.943 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:27:28.972 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1061] milliseconds
+05-Nov-2024 18:27:29.036 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 18:27:29.036 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 18:27:29.053 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 18:27:29.787 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 18:27:29.813 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 18:27:29.834 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 18:27:33.497 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 18:27:33.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [4,515] ms
+05-Nov-2024 18:27:33.572 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:27:33.603 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4629] milliseconds
+05-Nov-2024 18:27:33.609 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+05-Nov-2024 18:27:33.610 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:27:33.618 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 18:27:33.630 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:27:33.645 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:28:12.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 18:28:12.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 18:28:12.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 18:28:12.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 18:28:12.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 18:28:12.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 18:28:12.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 18:28:12.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 18:28:12.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 18:28:12.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:28:12.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:28:12.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 18:28:12.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 18:28:12.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 18:28:12.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 18:28:12.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 18:28:12.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 18:28:12.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 18:28:12.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 18:28:12.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 18:28:12.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:28:12.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:28:12.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 18:28:12.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 18:28:12.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 18:28:12.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=52913:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 18:28:12.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 18:28:12.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 18:28:12.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 18:28:12.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 18:28:12.688 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:28:12.720 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1059] milliseconds
+05-Nov-2024 18:28:12.791 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 18:28:12.792 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 18:28:12.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 18:28:13.336 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 18:28:13.363 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 18:28:13.388 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 18:28:16.566 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 18:28:16.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [3,823] ms
+05-Nov-2024 18:28:16.636 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:28:16.667 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3944] milliseconds
+05-Nov-2024 18:33:21.753 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:33:21.760 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 18:33:21.773 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:33:21.783 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:41:49.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 18:41:49.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 18:41:49.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 18:41:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 18:41:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 18:41:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 18:41:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 18:41:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 18:41:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 18:41:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:41:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:41:49.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 18:41:49.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 18:41:49.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 18:41:49.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 18:41:49.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 18:41:49.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 18:41:49.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 18:41:49.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 18:41:49.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 18:41:49.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:41:49.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:41:49.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 18:41:49.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 18:41:49.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 18:41:49.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=52993:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 18:41:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 18:41:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 18:41:49.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 18:41:49.834 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 18:41:50.447 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:41:50.481 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1128] milliseconds
+05-Nov-2024 18:41:50.539 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 18:41:50.540 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 18:41:50.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 18:41:50.590 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor A docBase [C:\Nishant_Study\Repositaray\SPThymeleaf\webapps] inside the host appBase has been specified, and will be ignored
+05-Nov-2024 18:41:50.667 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@bb9e6dc]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4118)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Nishant_Study\Repositaray\SPThymeleaf\webapps\SPThymeleaf] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 39 more
+05-Nov-2024 18:41:50.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [125] ms
+05-Nov-2024 18:41:50.691 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:41:50.824 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [341] milliseconds
+05-Nov-2024 18:42:29.909 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:42:29.917 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 18:42:29.921 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:42:29.933 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:42:29.938 SEVERE [Thread-1] org.apache.catalina.core.StandardContext.resourcesStop Error stopping static Resources
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@426ef371] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4142)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4716)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:994)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:811)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:955)
+05-Nov-2024 18:42:29.957 SEVERE [Thread-1] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [org.apache.catalina.webresources.StandardRoot@bb9e6dc] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@426ef371] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:392)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:218)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:231)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:266)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:4784)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:671)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:866)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:545)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:994)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:294)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:811)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:955)
+05-Nov-2024 18:42:32.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 18:42:32.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 18:42:32.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 18:42:32.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 18:42:32.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 18:42:32.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 18:42:32.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 18:42:32.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 18:42:32.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 18:42:32.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:42:32.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:42:32.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 18:42:32.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 18:42:32.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 18:42:32.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 18:42:32.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 18:42:32.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 18:42:32.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 18:42:32.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 18:42:32.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 18:42:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:42:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:42:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 18:42:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 18:42:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 18:42:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=52999:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 18:42:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 18:42:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 18:42:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 18:42:32.828 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 18:43:05.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+05-Nov-2024 18:43:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+05-Nov-2024 18:43:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+05-Nov-2024 18:43:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+05-Nov-2024 18:43:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Nov-2024 18:43:05.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Nov-2024 18:43:05.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1
+05-Nov-2024 18:43:05.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+9-LTS-jvmci-23.1-b48
+05-Nov-2024 18:43:05.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Nov-2024 18:43:05.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:43:05.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:43:05.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ThreadPriorityPolicy=1
+05-Nov-2024 18:43:05.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UnlockExperimentalVMOptions
+05-Nov-2024 18:43:05.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+EnableJVMCIProduct
+05-Nov-2024 18:43:05.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:-UnlockExperimentalVMOptions
+05-Nov-2024 18:43:05.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Nov-2024 18:43:05.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Nov-2024 18:43:05.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Nov-2024 18:43:05.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Nov-2024 18:43:05.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Nov-2024 18:43:05.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Nishant_Study\Software\apache-tomcat-9.0.96
+05-Nov-2024 18:43:05.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Nishant_Study\Repositaray\SPThymeleaf
+05-Nov-2024 18:43:05.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Nishant_Study\Repositaray\SPThymeleaf\temp
+05-Nov-2024 18:43:05.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Nishant_Study\Repositaray\SPThymeleaf\conf\logging.properties
+05-Nov-2024 18:43:05.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Nov-2024 18:43:05.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=53003:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin
+05-Nov-2024 18:43:05.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+05-Nov-2024 18:43:05.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+05-Nov-2024 18:43:05.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+05-Nov-2024 18:43:05.878 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files (x86)\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Launcher\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.3\bin;;C:\Users\user\.dotnet\tools;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts;C:\Nishant_Study\Software\graalvm-jdk-21_windows-x64_bin\graalvm-jdk-21.0.5+9.1\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;.]
+05-Nov-2024 18:43:06.496 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:43:06.529 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1075] milliseconds
+05-Nov-2024 18:43:06.597 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Nov-2024 18:43:06.597 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+05-Nov-2024 18:43:06.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml]
+05-Nov-2024 18:43:07.092 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 18:43:07.115 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [5.0]. Default version will be used.
+05-Nov-2024 18:43:07.133 WARNING [main] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [6.0]. Default version will be used.
+05-Nov-2024 18:43:10.187 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Nov-2024 18:43:10.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Nishant_Study\Repositaray\SPThymeleaf\conf\Catalina\localhost\SPThymeleaf.xml] has finished in [3,642] ms
+05-Nov-2024 18:43:10.259 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:43:10.291 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3759] milliseconds
+05-Nov-2024 18:44:35.406 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:44:35.411 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Nov-2024 18:44:35.425 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Nov-2024 18:44:35.438 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

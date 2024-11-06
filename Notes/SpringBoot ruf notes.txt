@@ -1,0 +1,522 @@
+
+Q.How to check the java version ?
+
+C:\Users\user>java -version
+java version "1.8.0_361"
+Java(TM) SE Runtime Environment (build 1.8.0_361-b09)
+Java HotSpot(TM) Client VM (build 25.361-b09, mixed mode)
+
+---------------
+How to create databse using commnad client ?
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 8.0.40 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database spring_jdbc_db;
+Query OK, 1 row affected (0.07 sec)
+
+mysql> use spring_jdbc_db;
+Database changed
+mysql> create table student(std_id varchar(100),std_name varchar(100),std_marks varchar(100));
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> select * from spring_jdbc_db;
+ERROR 1146 (42S02): Table 'spring_jdbc_db.spring_jdbc_db' doesn't exist
+mysql> select * from spring_jdbc_db;
+ERROR 1146 (42S02): Table 'spring_jdbc_db.spring_jdbc_db' doesn't exist
+mysql> select *from student
+    -> ndlsan
+    -> dhjjjdwdi
+    -> select * from student ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dhjjjdwdi
+select * from student' at line 3
+mysql> use spring_jdbc_db;
+Database changed
+mysql> select * from student;
++--------+----------+-----------+
+| std_id | std_name | std_marks |
++--------+----------+-----------+
+| 101    | nishant  | 85.23     |
++--------+----------+-----------+
+1 row in set (0.01 sec)
+
+mysql>
+------------------------------
+
+main application used for select Query.
+package com.example.SP_Study;
+
+import com.example.SP_Study.beans.Student;
+import com.example.SP_Study.mapper.StudentRowMapper;
+import com.example.SP_Study.resources.SpringConfigFile;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import java.util.List;
+
+@SpringBootApplication
+public class SpStudyApplication {
+
+    public static void main(String[] args) {
+        //	SpringApplication.run(SpStudyApplication.class, args);
+
+
+        ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfigFile.class);
+        JdbcTemplate jdbcTemplate = context.getBean(JdbcTemplate.class);
+       // String insert_sql_query = "INSERT INTO student VALUES(?,?,?)";
+
+		//------------- Insert Operation------------------
+//		int std_id = 301;
+//		String std_name = "kkc";
+//		float std_marks = 77.33f;
+//        int count = jdbcTemplate.update(insert_sql_query, std_id, std_name, std_marks);
+//        if (count > 0) {
+//            System.out.println("Insert data success");
+//        } else {
+//            System.out.println("Insertion data Failed");
+//        }
+
+		//--------------Update Operations
+//		int std_id=201;
+//		float std_marks=35.54f;
+//		String update_sql_query ="UPDATE student SET std_marks=? where std_id=?";
+//		int count = jdbcTemplate.update(update_sql_query,std_marks,std_id);
+//		if(count>0){
+//			System.out.println("Updated data success");
+//		}
+//		else {
+//			System.out.println("Data is not updated");
+//		}
+
+		// -------------Delete Operation--------------------------------------------
+//		int std_id=201;
+//		String delete_query= "DELETE FROM student WHERE std_id=?";
+//		int count = jdbcTemplate.update(delete_query,std_id);
+//		if(count>0){
+//			System.out.println("deleted successfully");
+//		}
+//		else {
+//			System.out.println("getting error ");
+//		}
+
+		//------------------Select Operation-----------------------
+		String select_query ="SELECT * FROM student";
+        List<Student> std_list  = jdbcTemplate.query(select_query,new StudentRowMapper());
+        for(Student std : std_list){
+            System.out.println("Id :"+std.getStd_id());
+            System.out.println("name :"+std.getStd_name());
+            System.out.println("marks :"+std.getStd_marks());
+            System.out.println("----------------------------------------------------");
+        }
+
+    }
+
+}
+----------------------------
+package com.example.SP_Study.mapper;
+
+import com.example.SP_Study.beans.Student;
+import org.springframework.jdbc.core.RowMapper;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class StudentRowMapper implements RowMapper<Student> {
+    @Override
+    public Student mapRow(ResultSet rs, int rowNum) throws SQLException {
+        Student std = new Student();
+        std.setStd_id(rs.getInt("std_id"));
+        std.setStd_name(rs.getString("std_name"));
+        std.setStd_marks(rs.getFloat("std_marks"));
+        return std;
+    }
+}
+-----------------------------------------
+package com.example.SP_Study.beans;
+
+public class Student {
+    private int std_id;
+
+    public int getStd_id() {
+        return std_id;
+    }
+
+    public void setStd_id(int std_id) {
+        this.std_id = std_id;
+    }
+
+    public String getStd_name() {
+        return std_name;
+    }
+
+    public void setStd_name(String std_name) {
+        this.std_name = std_name;
+    }
+
+    public float getStd_marks() {
+        return std_marks;
+    }
+
+    public void setStd_marks(float std_marks) {
+        this.std_marks = std_marks;
+    }
+
+    private String std_name;
+    private float std_marks;
+}
+-----------------------------------------------
+package com.example.SP_Study.resources;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+@Configuration
+public class SpringConfigFile {
+
+    @Bean
+    public DriverManagerDataSource mydataSource() {
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+
+        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost:3306/spring_jdbc_db");
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
+        return dataSource;
+    }
+
+    @Bean
+    public JdbcTemplate myJdbcTemplate() {
+        JdbcTemplate jdbcTemplate = new JdbcTemplate();
+        jdbcTemplate.setDataSource(mydataSource());
+        return jdbcTemplate;
+    }
+}
+-------------------------------------------------------------------------
+SQL Quries :
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 23
+Server version: 8.0.40 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2024, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database mvc_db;
+Query OK, 1 row affected (0.03 sec)
+
+mysql> use mvc_db;
+Database changed
+mysql> create table register(name VARCHAR(100), email VARCHAR(100),password VARCHAR(100), city VARCHAR(100));
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> select * from register;
+Empty set (0.01 sec)
+
+mysql> select * from register;
++---------+-------------------+------------+------+
+| name    | email             | password   | city |
++---------+-------------------+------------+------+
+| nishant | nishant@gmail.com | nishant123 | pune |
++---------+-------------------+------------+------+
+1 row in set (0.00 sec)
+
+mysql>
+
+----------------------------
+MVC servlet Configuration:
+index.html
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to my first program</h1>
+<a href="registration.html"> Register Here </a><br/><br/>
+<a href="login.html"> Login Here </a>
+
+</body>
+</html>
+------------------
+login.html:
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to login Page</h1>
+<form action="loginform" method="post">
+    Email id :<input type="text" name="email1"/><br/><br/>
+    Password :<input type="text" name="pass1"/><br/><br/>
+
+    <input type="submit" value="Login"/>
+
+
+</form>
+
+</body>
+</html>
+---------------------------
+Registration.html
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to Registration Page</h1>
+<form action="regForm" method="post">
+    Name :<input type="text" name="name1"/><br/><br/>
+    Email id :<input type="text" name="email1"/><br/><br/>
+    Password :<input type="password" name="pass1"/><br/><br/>
+    City :<input type="text" name="city1"/><br/><br/>
+
+    <input type="submit" value="Register"/>
+
+
+</form>
+
+</body>
+</html>
+---------------------------------
+Register contoller :
+package in.sp.controllers;
+
+import in.sp.database.DBConnection;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+
+@WebServlet("/regForm")
+public class Register extends HttpServlet {
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        PrintWriter out = resp.getWriter();
+        resp.setContentType("text/html");
+
+
+        String myName = req.getParameter("name1");
+        String myEmail = req.getParameter("email1");
+        String myPass = req.getParameter("pass1");
+        String myCity = req.getParameter("city1");
+
+        try {
+            Connection con = DBConnection.getConnection();
+            String insert_sql_query = "INSERT INTO register values(?,?,?,?)";
+            PreparedStatement ps = con.prepareStatement(insert_sql_query);
+            ps.setString(1, myName);
+            ps.setString(2, myEmail);
+            ps.setString(3, myPass);
+            ps.setString(4, myCity);
+
+            int count = ps.executeUpdate();
+            if (count > 0) {
+                out.println("<h3 style = 'color:green'>register successfully</h3>");
+
+                RequestDispatcher rd = req.getRequestDispatcher("./login.html");
+                rd.include(req, resp);
+            } else {
+                out.println("<h3 style = 'color:red'>register successfully</h3>");
+
+                RequestDispatcher rd = req.getRequestDispatcher("./registration.html");
+                rd.include(req, resp);
+            }
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}
+--------------------------
+data base connection :
+package in.sp.database;
+
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection {
+
+    public static Connection getConnection() {
+
+        Connection con = null;
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mvc_db", "root", "root");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return con;
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>6.1.6</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>3.3.0</version>
+    </dependency>
+
+    --------------------------------------------------------------------------------------------------------------------------------------------
+    User thymeleaf code:
+    #15 What is Thymeleaf || Spring Boot Thymeleaf Tutorial with Programs || Full Course [Hindi]
+    package in.sp.main.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
+
+@Controller
+public class MyController {
+
+    @GetMapping("/OpenProfile")
+    public String OpenProfilePage(Model model){
+        String name = "Nishant Narwade";
+        model.addAttribute("modelName",name);
+        return "profile";
+
+    }
+    @GetMapping("/openConditional")
+    public String openConditionalPage(Model model){
+        int no1=10;
+        int no2=20;
+        model.addAttribute("no1",no1);
+        model.addAttribute("no2",no2);
+
+        return "conditional";
+    }//looping.
+
+    @GetMapping("/LoopingMapping")
+    public String LoopingMappingPage(Model model){
+        List<Integer> numbers =List.of(1,2,3,4,5);
+        model.addAttribute("ModelNumbers",numbers);
+        return "looping";
+    }
+}
+----------------
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h2> Conditional (If) </h2>
+      <p th:if="${no1>no2}">
+          <span th:text="${no1}+' is greater than '+${no2}"></span>
+      </p>
+      <p th:if="${no1<no2}">
+          <span th:text="${no2}+' is greater than '+${no1}"></span>
+      </p>
+
+</body>
+</html>
+------------------
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2> Looping  (th:each) </h2>
+<ul>
+    <li th:each="no : ${ModelNumbers}">
+        <span th:text="${no}"></span>
+
+    </li>
+</ul>
+</body>
+</html>
+-----------------
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2> Welcome : <span th:text ="${modelName}"></span> </h2>
+</body>
+</html>
+-----------------
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Welcome to smart Programming </h2>>
+<a href="OpenProfile">Open Profile Page</a><br></br>
+<a href="openConditional">Open Conditional  Page</a><br></br>
+<a href="LoopingMapping">Looping list on Page</a><br></br>
+</body>
+</html>
+---------------
+package in.sp.main;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpThymeleafApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpThymeleafApplication.class, args);
+	}
+
+}
+---------------------
+output :
+Looping (th:each)
+1
+2
+3
+4
+5
+------------------------------------------------------------------------------------------------------
+
+
